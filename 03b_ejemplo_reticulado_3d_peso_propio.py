@@ -99,3 +99,6 @@ opciones_barras = {
 ver_reticulado_3d(ret, 
 	opciones_nodos=opciones_nodos, 
 	opciones_barras=opciones_barras)
+
+
+#ret.guardar("03b_ejemplo_reticulado_3d_peso_propio.h5)
