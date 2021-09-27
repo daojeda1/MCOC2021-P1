@@ -202,11 +202,23 @@ class Reticulado(object):
         
         return 0
 
+    def guardar(self, nombre):
+
+        """Implementar"""   
+
+        return 0
+
+    def abrir(self, nombre):
+
+        """Implementar"""   
+
+        return 0
 
     def __str__(self):
 
         s = " nodos:"
         s += "\n"
+        
 
         for i in range(self.Nnodos):
 
