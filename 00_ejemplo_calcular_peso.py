@@ -26,7 +26,7 @@ ret.agregar_barra(b1)
 ret.agregar_barra(b2)
 ret.agregar_barra(b3)
 
-print(ret)
+# print(ret)
 
 peso_total = ret.calcular_peso_total()
 
