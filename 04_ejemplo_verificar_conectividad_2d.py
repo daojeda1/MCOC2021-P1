@@ -49,6 +49,7 @@ opciones_barras = {
 ver_reticulado_2d(ret,opciones_barras=opciones_barras)
 
 #Resolver el problema
+# factor_peso_propio = [0., 0., 0.]
 ret.ensamblar_sistema()
 ret.resolver_sistema()
 f = ret.obtener_fuerzas()
