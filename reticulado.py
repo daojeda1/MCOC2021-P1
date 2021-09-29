@@ -290,4 +290,10 @@ class Reticulado(object):
             print(f"barra = {i} nj = {b.nj} ni = {b.ni}")
             barras[i, 0] = b.ni
             barras[i, 1] = b.nj
-            
+        
+    
+        def abrir(self, nombre):
+
+            """Implementar"""   
+
+            return 0
