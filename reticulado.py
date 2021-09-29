@@ -143,7 +143,7 @@ class Reticulado(object):
         gdl_libres = np.setdiff1d(gdl_libres,gdl_restringidos)
                 
 
-        Kff = self.K[np.ix_(gdl_libres,gdl_libres)]
+        self.Kff = self.K[np.ix_(gdl_libres,gdl_libres)]
         Kfc = self.K[np.ix_(gdl_libres,gdl_restringidos)]
         Kcf = Kfc.T
         Kcc = self.K[np.ix_(gdl_restringidos,gdl_restringidos)]
@@ -154,7 +154,7 @@ class Reticulado(object):
         ff = self.f[gdl_libres]
         fc = self.f[gdl_restringidos]
 
-        uf = solve(Kff, ff- Kfc @ uc)
+        uf = solve(self.Kff, ff- Kfc @ uc)
 
         # Resolver para obtener uf -->  Kff uf = ff - Kfc*uc
         self.Rc = Kcf@uf + Kcc@uc - fc  
