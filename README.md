@@ -11,7 +11,7 @@ Luego de crear todos los nodos, procedimos a crear el resto de las barras, el di
 
 ![image](https://user-images.githubusercontent.com/53507891/135769823-fe9f760b-f674-486e-9bb9-3dba7dcf5fa6.png)
 
-Sin embargo, este puente aún era inviable, de todas formas faltaba una columna que fuera capaz de tomar esfuerzos que el puente sin esta no era capaz de tomar, es por esto que se agrego una columna en la parte central de la quebrada, en el punto mas bajo.
+Sin embargo, este puente aún era inviable, de todas formas faltaba una columna que fuera capaz de tomar esfuerzos que el puente sin esta no era capaz de tomar, es por esto que se agrego una columna en la parte central de la quebrada, en el punto correspondiente al nodo 18.
 
 Tambien es posible notar que los distintos tipos de secciones poseen colores distintos y además en las ocpiones graficas se tuvo que tomar la decision de eliminar la vista de nro de nodos y de barras, asi como se achicó el grosor de las barras (solo el grosor en el grafico, la sección corresponde a la misma)
 
